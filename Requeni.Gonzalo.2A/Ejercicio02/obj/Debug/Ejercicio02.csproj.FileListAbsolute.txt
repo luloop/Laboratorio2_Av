@@ -1,0 +1,12 @@
+D:\VisualStudio\Requeni.Gonzalo.2A\Ejercicio02\bin\Debug\Ejercicio02.exe.config
+D:\VisualStudio\Requeni.Gonzalo.2A\Ejercicio02\bin\Debug\Ejercicio02.exe
+D:\VisualStudio\Requeni.Gonzalo.2A\Ejercicio02\bin\Debug\Ejercicio02.pdb
+D:\VisualStudio\Requeni.Gonzalo.2A\Ejercicio02\obj\Debug\Ejercicio02.csprojAssemblyReference.cache
+D:\VisualStudio\Requeni.Gonzalo.2A\Ejercicio02\obj\Debug\Ejercicio02.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Requeni.Gonzalo.2A\Ejercicio02\obj\Debug\Ejercicio02.exe
+D:\VisualStudio\Requeni.Gonzalo.2A\Ejercicio02\obj\Debug\Ejercicio02.pdb
+E:\CURSOS\UTN\Laboratorio2_Avellaneda\Requeni.Gonzalo.2A\Ejercicio02\bin\Debug\Ejercicio02.exe.config
+E:\CURSOS\UTN\Laboratorio2_Avellaneda\Requeni.Gonzalo.2A\Ejercicio02\obj\Debug\Ejercicio02.exe
+E:\CURSOS\UTN\Laboratorio2_Avellaneda\Requeni.Gonzalo.2A\Ejercicio02\obj\Debug\Ejercicio02.pdb
+E:\CURSOS\UTN\Laboratorio2_Avellaneda\Requeni.Gonzalo.2A\Ejercicio02\bin\Debug\Ejercicio02.exe
+E:\CURSOS\UTN\Laboratorio2_Avellaneda\Requeni.Gonzalo.2A\Ejercicio02\bin\Debug\Ejercicio02.pdb

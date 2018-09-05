@@ -1,0 +1,11 @@
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\bin\Debug\EjercicioClase06.exe.config
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\bin\Debug\EjercicioClase06.exe
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\bin\Debug\EjercicioClase06.pdb
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\obj\Debug\EjercicioClase06.csprojAssemblyReference.cache
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\obj\Debug\EjercicioClase06.Form1.resources
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\obj\Debug\EjercicioClase06.FormTinta.resources
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\obj\Debug\EjercicioClase06.Properties.Resources.resources
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\obj\Debug\EjercicioClase06.csproj.GenerateResource.cache
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\obj\Debug\EjercicioClase06.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\obj\Debug\EjercicioClase06.exe
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase06\obj\Debug\EjercicioClase06.pdb

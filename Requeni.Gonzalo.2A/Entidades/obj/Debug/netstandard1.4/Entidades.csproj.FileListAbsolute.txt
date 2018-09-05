@@ -1,0 +1,8 @@
+C:\Users\Gonzalo\Desktop\Requeni.Gonzalo.2A\Entidades\bin\Debug\netstandard1.4\Entidades.deps.json
+C:\Users\Gonzalo\Desktop\Requeni.Gonzalo.2A\Entidades\obj\Debug\netstandard1.4\Entidades.csprojAssemblyReference.cache
+C:\Users\Gonzalo\Desktop\Requeni.Gonzalo.2A\Entidades\obj\Debug\netstandard1.4\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Gonzalo\Desktop\Requeni.Gonzalo.2A\Entidades\obj\Debug\netstandard1.4\Entidades.AssemblyInfo.cs
+C:\Users\Gonzalo\Desktop\Requeni.Gonzalo.2A\Entidades\bin\Debug\netstandard1.4\Entidades.dll
+C:\Users\Gonzalo\Desktop\Requeni.Gonzalo.2A\Entidades\bin\Debug\netstandard1.4\Entidades.pdb
+C:\Users\Gonzalo\Desktop\Requeni.Gonzalo.2A\Entidades\obj\Debug\netstandard1.4\Entidades.dll
+C:\Users\Gonzalo\Desktop\Requeni.Gonzalo.2A\Entidades\obj\Debug\netstandard1.4\Entidades.pdb

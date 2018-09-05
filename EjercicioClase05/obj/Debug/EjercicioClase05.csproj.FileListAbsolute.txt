@@ -1,0 +1,14 @@
+D:\Requeni.Gonzalo.2A\EjercicioClase05\bin\Debug\EjercicioClase05.exe.config
+D:\Requeni.Gonzalo.2A\EjercicioClase05\bin\Debug\EjercicioClase05.exe
+D:\Requeni.Gonzalo.2A\EjercicioClase05\bin\Debug\EjercicioClase05.pdb
+D:\Requeni.Gonzalo.2A\EjercicioClase05\obj\Debug\EjercicioClase05.csprojAssemblyReference.cache
+D:\Requeni.Gonzalo.2A\EjercicioClase05\obj\Debug\EjercicioClase05.csproj.CoreCompileInputs.cache
+D:\Requeni.Gonzalo.2A\EjercicioClase05\obj\Debug\EjercicioClase05.exe
+D:\Requeni.Gonzalo.2A\EjercicioClase05\obj\Debug\EjercicioClase05.pdb
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase05\bin\Debug\EjercicioClase05.exe.config
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase05\bin\Debug\EjercicioClase05.exe
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase05\bin\Debug\EjercicioClase05.pdb
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase05\obj\Debug\EjercicioClase05.csprojAssemblyReference.cache
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase05\obj\Debug\EjercicioClase05.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase05\obj\Debug\EjercicioClase05.exe
+D:\VisualStudio\Requeni.Gonzalo.2A\EjercicioClase05\obj\Debug\EjercicioClase05.pdb

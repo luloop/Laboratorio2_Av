@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using EntidadesClase07;
+using Entidades;
 
 
 namespace frmTempera
@@ -34,22 +34,15 @@ namespace frmTempera
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
-        public FrmTempera(Paleta paleta, int index)
+        public FrmTempera(Tempera tempera) : this()
         {
-            Tempera[] aux = paleta + index;
-            this.DialogResult = DialogResult.None;
-            InitializeComponent();
-                  comboBox1.Text =  aux[index];
-
-                  
+            this._miTempera = tempera;
+            this.comboBox1.SelectedItem = this._miTempera.GetColor;
+            this.textBox2.Text = "" + this._miTempera.Cantidad;
+            this.textBox3.Text = this._miTempera.Marca;
         }
 
-
-
-
-
-
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             this._miTempera = new Tempera(sbyte.Parse(textBox3.Text), (ConsoleColor)this.comboBox1.SelectedItem, textBox2.Text);

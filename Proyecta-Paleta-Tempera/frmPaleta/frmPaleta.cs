@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using EntidadesClase07;
+using Entidades;
 using frmTempera;
 
 namespace frmPaleta
@@ -67,36 +67,31 @@ namespace frmPaleta
             {
                 if (texto == item)
                 {
-                   FrmTempera formtempera = new FrmTempera(this._paleta, index);
-                    {
-                        DialogResult dialogo = formtempera.ShowDialog();
-                        if( dialogo == DialogResult.OK)
-                        {
-                            Tempera[] lolo = this._paleta + index;
-                            this._paleta -= lolo[0];
-                            textBox1.Text = (string)this._paleta; 
-                        }
-
-                        
-                    }
-                   
-
-
-
+                    texto += "\r\n Posicion :" + index.ToString();
+                    MessageBox.Show(texto);
                     break;
                 }
                 else
                 index++;
             }
-            index = index - 1;
-            texto += "\r\n Posicion :" + index.ToString();
 
-            MessageBox.Show(texto);
+            FrmTempera formtempera = new FrmTempera(this._paleta[index]);
+          
+                DialogResult dialogo = formtempera.ShowDialog();
+                if (dialogo == DialogResult.OK)
+                {
 
-            
+                    this._paleta -= formtempera.Tempera;
+                    textBox1.Text = (string)this._paleta;
+                }
 
 
-            
+           
+
+
+
+
+
 
         }
     }

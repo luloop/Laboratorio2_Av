@@ -216,3 +216,13 @@ C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempe
 C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.csproj.CopyComplete
 C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.exe
 C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.pdb
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.exe
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.pdb
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\bin\Debug\frmTempera.exe.config
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\bin\Debug\frmTempera.exe
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\bin\Debug\frmTempera.pdb
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\bin\Debug\Entidades.exe
+C:\Users\Usuario\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\bin\Debug\Entidades.pdb

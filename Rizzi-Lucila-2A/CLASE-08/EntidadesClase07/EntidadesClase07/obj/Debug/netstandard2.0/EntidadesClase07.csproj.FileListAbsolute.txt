@@ -1,0 +1,13 @@
+D:\Rizzi.Lucila.2A\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.csprojAssemblyReference.cache
+D:\Rizzi.Lucila.2A\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.csproj.CoreCompileInputs.cache
+D:\Rizzi.Lucila.2A\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.AssemblyInfoInputs.cache
+D:\Rizzi.Lucila.2A\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.AssemblyInfo.cs
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\bin\Debug\netstandard2.0\EntidadesClase07.deps.json
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\bin\Debug\netstandard2.0\EntidadesClase07.dll
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\bin\Debug\netstandard2.0\EntidadesClase07.pdb
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.csprojAssemblyReference.cache
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.csproj.CoreCompileInputs.cache
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.AssemblyInfoInputs.cache
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.AssemblyInfo.cs
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.dll
+D:\Rizzi-Lucila-2A\CLASE-08\EntidadesClase07\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.pdb

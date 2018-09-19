@@ -1,5 +1,0 @@
-C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\Form-Paleta\obj\Debug\Form-Paleta.csprojAssemblyReference.cache
-C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\Form-Paleta\obj\Debug\Form_Paleta.Properties.Resources.resources
-C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\Form-Paleta\obj\Debug\Form-Paleta.csproj.GenerateResource.cache
-C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\Form-Paleta\obj\Debug\Form-Paleta.csproj.CoreCompileInputs.cache
-C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\Form-Paleta\obj\Debug\Form-Paleta.exe.config

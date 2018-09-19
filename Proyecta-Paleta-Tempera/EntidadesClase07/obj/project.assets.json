@@ -182,11 +182,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luloop\\Desktop\\Proyecta-Paleta-Tempera\\EntidadesClase07\\EntidadesClase07.csproj",
+      "projectUniqueName": "C:\\Users\\luloop\\Desktop\\Laboratorio2_Avellaneda\\Proyecta-Paleta-Tempera\\EntidadesClase07\\EntidadesClase07.csproj",
       "projectName": "EntidadesClase07",
-      "projectPath": "C:\\Users\\luloop\\Desktop\\Proyecta-Paleta-Tempera\\EntidadesClase07\\EntidadesClase07.csproj",
+      "projectPath": "C:\\Users\\luloop\\Desktop\\Laboratorio2_Avellaneda\\Proyecta-Paleta-Tempera\\EntidadesClase07\\EntidadesClase07.csproj",
       "packagesPath": "C:\\Users\\luloop\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luloop\\Desktop\\Proyecta-Paleta-Tempera\\EntidadesClase07\\obj\\",
+      "outputPath": "C:\\Users\\luloop\\Desktop\\Laboratorio2_Avellaneda\\Proyecta-Paleta-Tempera\\EntidadesClase07\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

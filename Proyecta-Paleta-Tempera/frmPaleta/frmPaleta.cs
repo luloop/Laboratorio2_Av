@@ -47,7 +47,7 @@ namespace frmPaleta
             if (dialogResult == DialogResult.OK)
             {
                 this._paleta += colores.Tempera;
-                textBox1.Text += (string)this._paleta; 
+                textBox1.Text = (string)this._paleta; 
             }
 
         }
@@ -67,22 +67,34 @@ namespace frmPaleta
             {
                 if (texto == item)
                 {
-                  //  FrmTempera formtempera = new FrmTempera(this._paleta);
+                   FrmTempera formtempera = new FrmTempera(this._paleta, index);
+                    {
+                        DialogResult dialogo = formtempera.ShowDialog();
+                        if( dialogo == DialogResult.OK)
+                        {
+                            Tempera[] lolo = this._paleta + index;
+                            this._paleta -= lolo[0];
+                            textBox1.Text = (string)this._paleta; 
+                        }
+
+                        
+                    }
+                   
 
 
-                    
+
                     break;
                 }
                 else
                 index++;
             }
             index = index - 1;
-            texto += " Posicion" + index.ToString();
+            texto += "\r\n Posicion :" + index.ToString();
 
             MessageBox.Show(texto);
 
-            Tempera[] lolo = this._paleta + index;
-          //  FrmTempera formtempera = new FrmTempera(this._paleta, index);
+            
+
 
             
 

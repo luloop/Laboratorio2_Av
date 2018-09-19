@@ -42,7 +42,7 @@ namespace EntidadesClase07
 
                 else if ( indice == this._colores.GetLength(0)) // si el array esta vacio
                 {
-                    this._colores = this + indice ; // NO ENTIENDO ESTA LINEA
+                    this._colores = this + indice ; // devuelve un array vacio?
                     this[indice] = value;
                 }
                 else
@@ -195,6 +195,7 @@ namespace EntidadesClase07
             int i = indice >= paleta._colores.GetLength(0) ? ++indice : --indice;// como funciona esto?
 
             Tempera[] aux = new Tempera[i];
+
             paleta._colores.CopyTo(aux, 0);
 
             return aux;

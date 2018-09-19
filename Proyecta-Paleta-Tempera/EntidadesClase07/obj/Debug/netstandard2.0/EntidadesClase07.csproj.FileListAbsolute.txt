@@ -20,3 +20,12 @@ C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netst
 C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.dll
 C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.pdb
 C:\Users\luloop\Desktop\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.csprojAssemblyReference.cache
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\bin\Debug\netstandard2.0\EntidadesClase07.deps.json
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\bin\Debug\netstandard2.0\EntidadesClase07.dll
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\bin\Debug\netstandard2.0\EntidadesClase07.pdb
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.csprojAssemblyReference.cache
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.csproj.CoreCompileInputs.cache
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.AssemblyInfoInputs.cache
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.AssemblyInfo.cs
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.dll
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\EntidadesClase07\obj\Debug\netstandard2.0\EntidadesClase07.pdb

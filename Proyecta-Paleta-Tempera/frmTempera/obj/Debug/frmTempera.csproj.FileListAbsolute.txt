@@ -216,3 +216,4 @@ C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempe
 C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.csproj.CopyComplete
 C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.exe
 C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.pdb
+C:\Users\luloop\Desktop\Laboratorio2_Avellaneda\Proyecta-Paleta-Tempera\frmTempera\obj\Debug\frmTempera.FrmTempera.resources

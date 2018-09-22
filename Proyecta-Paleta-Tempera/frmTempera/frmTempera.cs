@@ -34,26 +34,25 @@ namespace frmTempera
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
         }
 
-        public FrmTempera(Paleta paleta, int index)
+        public FrmTempera(Tempera tempera) : this() // llamas al constructor inicial, para que inicialice y depsus se le carga los setter
         {
-            Tempera[] aux = paleta + index;
-            this.DialogResult = DialogResult.None;
-            InitializeComponent();
-                  comboBox1.Text =  aux[index];
+            textBox3.Text=  tempera.Cantidad.ToString();
+            comboBox1.Text = tempera.Color.ToString();
+            textBox2.Text = tempera.Marca;            
 
-                  
         }
-
-
-
-
-
 
 
         private void button2_Click(object sender, EventArgs e)
         {
             this._miTempera = new Tempera(sbyte.Parse(textBox3.Text), (ConsoleColor)this.comboBox1.SelectedItem, textBox2.Text);
             this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
             this.Close();
         }
     }

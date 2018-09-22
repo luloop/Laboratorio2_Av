@@ -61,42 +61,45 @@ namespace frmPaleta
 
         private void button2_Click(object sender, EventArgs e)
         {
+            FrmTempera formtempera;
             string texto = this.textBox1.SelectedText;
-            int index = 0;
+            int index = -1;
             foreach (string item in this.textBox1.Lines)
             {
+               
+
                 if (texto == item)
                 {
-                   FrmTempera formtempera = new FrmTempera(this._paleta, index);
-                    {
-                        DialogResult dialogo = formtempera.ShowDialog();
-                        if( dialogo == DialogResult.OK)
-                        {
-                            Tempera[] lolo = this._paleta + index;
-                            this._paleta -= lolo[0];
-                            textBox1.Text = (string)this._paleta; 
-                        }
-
-                        
-                    }
-                   
-
-
-
+                    texto += "\r\n Posicion :" + index.ToString();
+                    MessageBox.Show(texto);
                     break;
                 }
-                else
-                index++;
+
+                 index++;
+                                             
             }
-            index = index - 1;
-            texto += "\r\n Posicion :" + index.ToString();
 
-            MessageBox.Show(texto);
+            if (index >=0)
+            { 
+                formtempera = new FrmTempera(_paleta[index]);
+           
+                DialogResult dialogo = formtempera.ShowDialog();
+                if (dialogo == DialogResult.OK)
+                {
+                    this._paleta -= formtempera.Tempera;
+                    this.textBox1.Text = (string)this._paleta;
+                }
 
-            
+
+            }
 
 
-            
+
+
+
+
+
+
 
         }
     }

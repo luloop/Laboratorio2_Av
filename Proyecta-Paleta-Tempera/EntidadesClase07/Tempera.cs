@@ -12,9 +12,33 @@ namespace EntidadesClase07
         private sbyte _cantidad;
         private ConsoleColor _color;
         private string _marca;
-     #endregion
+        #endregion
 
-    #region Constructores
+        public sbyte Cantidad
+        {
+            get
+            {
+                return this._cantidad;
+            }
+        }
+
+        public ConsoleColor Color
+        {
+            get
+            {
+                return this._color;
+            }
+        }
+
+        public string Marca
+        {
+            get
+            {
+                return this._marca;
+            }
+        }
+
+        #region Constructores
 
         public Tempera(sbyte cant, ConsoleColor color, string marca) 
         {
@@ -28,13 +52,7 @@ namespace EntidadesClase07
 
 
         #region Sobrecarga  
-
-        public static implicit operator Tempera[] (Tempera tempera)
-        {
-            Tempera tempera1 = new Tempera(tempera._cantidad, tempera._color, tempera._marca);
-            return tempera1;
-        }
-
+        
         public static implicit operator string (Tempera tempera)
         {
             return tempera.Mostrar();
@@ -77,7 +95,7 @@ namespace EntidadesClase07
 
         public static Tempera operator +(Tempera a, sbyte b)
         {
-            if (a._cantidad >=0  && b >= 0 && a !=null)
+            if (a._cantidad >=0  && (Object)a !=null && (Object)b != null)
             {
                 a._cantidad +=b;
             }

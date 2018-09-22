@@ -23,7 +23,7 @@ namespace EntidadesClase07
         private Paleta(int cantidad) 
         {
             this._cantidadMaximaElementos = cantidad;
-            this._colores = new Tempera[this._cantidadMaximaElementos];
+            this._colores = new Tempera[cantidad];
         }
 
         public Tempera this [int indice]
@@ -174,14 +174,14 @@ namespace EntidadesClase07
             int indice = a.ObtenerIndice(b);
             if (a == b)//a.ObtenerIndice(b)!=-1)
             {
-                if (((sbyte)a._colores[indice] - (sbyte)b) <= 0)
+                if (((sbyte)a._colores[indice] - (sbyte)b) < 1)
                 {
                     a._colores[indice] = null;                    
                 }
 
                 else
                 {
-                     a._colores[indice] += (sbyte)((sbyte)b*(-1));                             
+                     a._colores[indice] += (sbyte)((sbyte)b * -1);                             
 
                 }
                 
@@ -190,18 +190,18 @@ namespace EntidadesClase07
             return a;
         }
 
-        public static Tempera[] operator +(Paleta paleta, int indice)
+       public static Tempera[] operator +(Paleta paleta, int indice)
         {
             int i = indice >= paleta._colores.GetLength(0) ? ++indice : --indice;// como funciona esto?
 
-            Tempera[] aux = new Tempera[i];
+            Tempera[] aux = new Tempera [i] ;
 
             paleta._colores.CopyTo(aux, 0);
 
             return aux;
 
         }
-
+       
         #endregion
 
     }

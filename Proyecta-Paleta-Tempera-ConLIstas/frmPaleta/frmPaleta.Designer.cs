@@ -37,6 +37,10 @@
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarPaletaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.btnSortColor = new System.Windows.Forms.Button();
+            this.btnSortMarca = new System.Windows.Forms.Button();
+            this.btnSortCantidad = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +52,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(271, 109);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -113,17 +116,60 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // btnSortColor
+            // 
+            this.btnSortColor.Location = new System.Drawing.Point(200, 220);
+            this.btnSortColor.Name = "btnSortColor";
+            this.btnSortColor.Size = new System.Drawing.Size(95, 42);
+            this.btnSortColor.TabIndex = 5;
+            this.btnSortColor.Text = "Color - a +";
+            this.btnSortColor.UseVisualStyleBackColor = true;
+            this.btnSortColor.Click += new System.EventHandler(this.btnSortColor_Click);
+            // 
+            // btnSortMarca
+            // 
+            this.btnSortMarca.Location = new System.Drawing.Point(107, 220);
+            this.btnSortMarca.Name = "btnSortMarca";
+            this.btnSortMarca.Size = new System.Drawing.Size(87, 42);
+            this.btnSortMarca.TabIndex = 6;
+            this.btnSortMarca.Text = "Marca - a +";
+            this.btnSortMarca.UseVisualStyleBackColor = true;
+            this.btnSortMarca.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // btnSortCantidad
+            // 
+            this.btnSortCantidad.Location = new System.Drawing.Point(11, 220);
+            this.btnSortCantidad.Name = "btnSortCantidad";
+            this.btnSortCantidad.Size = new System.Drawing.Size(90, 42);
+            this.btnSortCantidad.TabIndex = 7;
+            this.btnSortCantidad.Text = "Cantidad - a +";
+            this.btnSortCantidad.UseVisualStyleBackColor = true;
+            this.btnSortCantidad.Click += new System.EventHandler(this.btnSortCantidad_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(12, 204);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 13);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "Ordenamientos";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // frmPaleta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 228);
+            this.ClientSize = new System.Drawing.Size(311, 284);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnSortCantidad);
+            this.Controls.Add(this.btnSortMarca);
+            this.Controls.Add(this.btnSortColor);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmPaleta";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
@@ -143,6 +189,10 @@
         private System.Windows.Forms.ToolStripMenuItem inicioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarPaletaToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Button btnSortColor;
+        private System.Windows.Forms.Button btnSortMarca;
+        private System.Windows.Forms.Button btnSortCantidad;
+        private System.Windows.Forms.Label label1;
     }
 }
 

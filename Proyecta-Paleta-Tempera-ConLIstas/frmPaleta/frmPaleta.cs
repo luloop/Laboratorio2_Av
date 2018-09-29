@@ -28,11 +28,6 @@ namespace frmPaleta
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void agregarPaletaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.groupBox1.Visible = true;
@@ -53,20 +48,13 @@ namespace frmPaleta
         }
 
 
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             FrmTempera formtempera;
             string texto = this.textBox1.SelectedText;
             int index = -1;
             foreach (string item in this.textBox1.Lines)
-            {
-               
+            {               
 
                 if (texto == item)
                 {
@@ -95,12 +83,27 @@ namespace frmPaleta
 
 
 
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+                this._paleta= this._paleta.SortMarca();
+                this.textBox1.Text = (string)this._paleta;
+        }
 
 
+        private void btnSortColor_Click(object sender, EventArgs e)
+        {
+            this._paleta = this._paleta.SortColor();
+            this.textBox1.Text = (string)this._paleta;
+        }
 
-
-
-
+        private void btnSortCantidad_Click(object sender, EventArgs e)
+        {
+            this._paleta = this._paleta.SortCantidad();
+            this.textBox1.Text = (string)this._paleta;
         }
     }
+
+   
 }

@@ -75,6 +75,25 @@ namespace EntidadesClase07
 
 
         }
+
+        public PaletaColecciones SortMarca()
+        {
+            this._colores.Sort(PaletaColecciones.OrdenarPorMarca);
+            return this;
+        }
+
+        public PaletaColecciones SortCantidad()
+        {
+            this._colores.Sort(PaletaColecciones.OrdenarPorCantidad);
+            return this;
+        }
+
+        public PaletaColecciones SortColor()
+        {
+            this._colores.Sort(PaletaColecciones.OrdenarPorColor);
+            return this;
+        }
+
         #endregion
 
         #region Sobrecarga operadores
@@ -187,6 +206,66 @@ namespace EntidadesClase07
 
             return a;
         }
+        #endregion
+
+        #region Ordenadores 
+
+       
+        public static int OrdenarPorCantidad(Tempera temp1, Tempera temp2)
+        {
+            int retorno = 0;
+
+            if (temp1.Cantidad > temp2.Cantidad)
+            {
+                retorno = 1;
+
+            }
+            if (temp1.Cantidad < temp2.Cantidad)
+            {
+                retorno = -1;
+
+            }
+
+            return retorno;
+        }
+
+        public static int OrdenarPorMarca(Tempera temp1, Tempera temp2)
+        {
+            int retorno = 0;
+
+            if (string.Compare(temp1.Marca, temp2.Marca, ignoreCase: true) > 0)
+            {
+                retorno = 1;
+
+            }
+            if (string.Compare(temp1.Marca, temp2.Marca, ignoreCase: true) < 0)
+            {
+                retorno = -1;
+
+            }
+
+            return retorno;
+        }
+
+
+        public static int OrdenarPorColor(Tempera temp1, Tempera temp2)
+        {
+            int retorno = 0;
+
+            if (temp1.Color > temp2.Color)
+            {
+                retorno = 1;
+
+            }
+            if (temp1.Color < temp2.Color)
+            {
+                retorno = -1;
+
+            }
+
+            return retorno;
+        }
+        #endregion
 
         /*      public static List <Tempera> operator +(PaletaColecciones PaletaColeccioness, int indice)
                {
@@ -207,7 +286,7 @@ namespace EntidadesClase07
 
                }
                */
-        #endregion
+      //  #endregion
 
     }
 }

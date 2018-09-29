@@ -47,7 +47,7 @@ namespace frmPaleta
             if (dialogResult == DialogResult.OK)
             {
                 this._paleta += colores.Tempera;
-                textBox1.Text = (string)this._paleta; 
+                textBox1.Text = (string)this._paleta; ////////////////////////////////////////////////
             }
 
         }

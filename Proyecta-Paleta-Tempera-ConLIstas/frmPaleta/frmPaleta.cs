@@ -87,22 +87,45 @@ namespace frmPaleta
 
         private void button4_Click(object sender, EventArgs e)
         {
-                this._paleta= this._paleta.SortMarca();
+            if(!checkBox1.Checked)
+            {
+                this._paleta = this._paleta.SortMarca(1);
+            }
+            else
+            {
+                this._paleta = this._paleta.SortMarca(0);
+            }
+               
                 this.textBox1.Text = (string)this._paleta;
         }
-
-
+        
         private void btnSortColor_Click(object sender, EventArgs e)
         {
-            this._paleta = this._paleta.SortColor();
+            if (!checkBox1.Checked)
+            {
+                this._paleta = this._paleta.SortColor(1);
+            }
+            else
+            {
+                this._paleta = this._paleta.SortColor(0);
+            }
             this.textBox1.Text = (string)this._paleta;
         }
 
         private void btnSortCantidad_Click(object sender, EventArgs e)
         {
-            this._paleta = this._paleta.SortCantidad();
+            if (!checkBox1.Checked)
+            {
+                this._paleta = this._paleta.SortCantidad(1);
+            }
+           else
+            {
+                this._paleta = this._paleta.SortCantidad(0);
+            }
             this.textBox1.Text = (string)this._paleta;
         }
+
+
     }
 
    

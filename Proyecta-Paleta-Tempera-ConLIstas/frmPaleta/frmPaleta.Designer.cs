@@ -41,6 +41,7 @@
             this.btnSortMarca = new System.Windows.Forms.Button();
             this.btnSortCantidad = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -156,11 +157,22 @@
             this.label1.Text = "Ordenamientos";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(13, 281);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(90, 17);
+            this.checkBox1.TabIndex = 9;
+            this.checkBox1.Text = "Invertir Orden";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // frmPaleta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(311, 284);
+            this.ClientSize = new System.Drawing.Size(311, 310);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSortCantidad);
             this.Controls.Add(this.btnSortMarca);
@@ -193,6 +205,7 @@
         private System.Windows.Forms.Button btnSortMarca;
         private System.Windows.Forms.Button btnSortCantidad;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

@@ -76,21 +76,37 @@ namespace EntidadesClase07
 
         }
 
-        public PaletaColecciones SortMarca()
+        public PaletaColecciones SortMarca(int orden)
         {
-            this._colores.Sort(PaletaColecciones.OrdenarPorMarca);
+
+            this._colores.Sort (PaletaColecciones.OrdenarPorMarca);
+             if (orden == 0)
+            {
+                this._colores.Reverse();
+            }
             return this;
         }
 
-        public PaletaColecciones SortCantidad()
+        public PaletaColecciones SortCantidad(int orden)
         {
             this._colores.Sort(PaletaColecciones.OrdenarPorCantidad);
+            if (orden == 0)
+            {
+                this._colores.Reverse();
+            }
+
+
+
             return this;
         }
 
-        public PaletaColecciones SortColor()
+        public PaletaColecciones SortColor(int orden)
         {
             this._colores.Sort(PaletaColecciones.OrdenarPorColor);
+            if (orden == 0)
+            {
+                this._colores.Reverse();
+            }
             return this;
         }
 

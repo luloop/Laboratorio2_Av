@@ -9,7 +9,7 @@ namespace EntidadesClase07
     public class PaletaColecciones
     {
         #region Atributos
-        private List <Tempera> _colores;
+        private List<Tempera> _colores;
         private int _cantidadMaximaElementos;
 
         #endregion
@@ -24,7 +24,7 @@ namespace EntidadesClase07
         private PaletaColecciones(int cantidad)
         {
             this._cantidadMaximaElementos = cantidad;
-            this._colores= new List <Tempera>();
+            this._colores = new List<Tempera>();
         }
 
         public Tempera this[int indice]
@@ -43,7 +43,7 @@ namespace EntidadesClase07
 
                 else if (indice == this._colores.Count) // si el array esta vacio
                 {
-                    
+
                     this._colores.Add(value);
                 }
                 else
@@ -68,10 +68,7 @@ namespace EntidadesClase07
             retorno = "Cantidad Maxima: " + this._cantidadMaximaElementos.ToString() + "\r\n";
             for (int i = 0; i < this._colores.Count; i++)
             {
-                if (this._colores.GetType()== null)
-                {
-                    retorno += this._colores[i] + "\r\n";
-                }
+              retorno += this._colores[i] + "\r\n";
             }
 
             return retorno;
@@ -95,8 +92,8 @@ namespace EntidadesClase07
         public static bool operator ==(PaletaColecciones a, Tempera b)
         {
             bool retorno = false;
-     
-            for (int i = 0; i < a._cantidadMaximaElementos; i++)
+
+            for (int i = 0; i < a._colores.Count; i++)
             {
                 if (a._colores.GetType() != null)
                 {
@@ -117,46 +114,40 @@ namespace EntidadesClase07
             return !(a == b);
         }
 
-        public static PaletaColecciones operator +(PaletaColecciones a, Tempera b)
+        public static PaletaColecciones operator +(PaletaColecciones palet, Tempera b)
         {
-            int index = a._colores.IndexOf(b);
+            int index = palet.ObtenerIndice(b);
 
-            if (a._cantidadMaximaElementos < a._colores.Count)
+            if (palet == b)
             {
+                palet._colores[index] += b;
+              
+            }
 
-                if (a == b)
-                 {
-                a._colores[index] += b;
-                return a;
-                }
-                 else
+            else
+            {
+                if (palet._cantidadMaximaElementos > palet._colores.Count)
                 {
-                     if (index!= -1)
-                      {
-                        a._colores.Add(b);
-                        return a;
-                        }
+                        palet._colores.Add(b);                       
+                }
 
-                
             }
-            }
-            return a;
 
+            return palet;
 
         }
 
-        /*
                 private int ObtenerIndice()
                 {
                     int retorno = -1;
                     int cant = this._cantidadMaximaElementos;
                     for (int i = 0; i < cant; i++)
                     {
-                        if (this._colores.GetValue(i) == null)
-                        {
+                        //if (this._colores.GetValue(i) == null)
+                        //{
                             retorno = i;
                             break;
-                        }
+                      //  }
                     }
                     return retorno;
                 }
@@ -164,7 +155,7 @@ namespace EntidadesClase07
                 private int ObtenerIndice(Tempera tempera)
                 {
                     int retorno = -1;
-                    int cant = this._cantidadMaximaElementos;
+                    int cant = this._colores.Count;
                     for (int i = 0; i < cant; i++)
                     {
                         if (this._colores[i] == tempera)
@@ -175,16 +166,15 @@ namespace EntidadesClase07
                     }
                     return retorno;
                 }
-                */
-
+               
         public static PaletaColecciones operator -(PaletaColecciones a, Tempera b)
         {
-            int indice = a._colores.IndexOf(b);
+            int indice = a.ObtenerIndice(b);
             if (a == b)
             {
-                if (((sbyte)a._colores[indice] - (sbyte)b) < 1)
+                if (((int)a._colores[indice] - (int)b) < 1)
                 {
-                    a._colores.Remove(b);
+                    a._colores.RemoveAt(indice);
                 }
 
                 else
@@ -198,18 +188,25 @@ namespace EntidadesClase07
             return a;
         }
 
-        public static Tempera[] operator +(PaletaColecciones PaletaColecciones, int indice)
-        {
-            int i = indice >= PaletaColecciones._colores.Count ? ++indice : --indice;// como funciona esto?
+        /*      public static List <Tempera> operator +(PaletaColecciones PaletaColeccioness, int indice)
+               {
+                   int i = indice >= PaletaColeccioness._colores.Count ? ++indice : --indice;// como funciona esto?
 
-            Tempera[] aux = new Tempera[i];
+                   List<Tempera> aux = new List<Tempera>;
 
-            PaletaColecciones._colores.CopyTo(aux, 0);
+                   if ( aux.Count > PaletaColeccioness._cantidadMaximaElementos)
+                   {
+                       return PaletaColeccioness._colores;
+                   }
+                   else
+                   {
+                       return aux;
 
-            return aux;
+                   }
 
-        }
 
+               }
+               */
         #endregion
 
     }
